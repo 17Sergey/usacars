@@ -207,7 +207,7 @@ a {
     transition: all 0.2s;
 }
 
-.hover-active {
+.steps__item:hover .steps__number {
     color: #5A0D67;
 }
 

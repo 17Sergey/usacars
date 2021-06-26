@@ -1,10 +1,4 @@
 $(function () {
-    $(".steps__item").hover(function () {
-
-        $(".steps__number").addClass("hover-active");  //Add the active class to the area is hovered
-    }, function () {
-        $(".steps__number").removeClass("hover-active");
-    });
     $('.cars__slider').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
